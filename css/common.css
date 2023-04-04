@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    color: #222;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.gnb {
+    display: flex;
+    justify-content: center;
+}
+
+.gnb li a {
+    display: block;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gnb li a:hover {
+    color: blueviolet;
+}
+
+.slide .item {
+    height: 400px;
+    background-image: url('../images/seoul.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.main h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main p {
+    margin-bottom: 20px;
+}
+
+.main .texts p b {
+    font-size: 18px;
+}
+
+.main .texts p:nth-child(1) b {
+    color: aqua;
+}
+
+.main .texts p:nth-child(2) b {
+    color: blue;
+}
+.main .texts p:nth-child(3) b {
+    color: blueviolet;
+}
+
+.copyright {
+    color: #333;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
